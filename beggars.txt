@@ -1,0 +1,10 @@
+//
+// Beggars Proof
+//
+
+(cond (not hf) w)
+(cond (not w) (not brd))
+(cond (not (and brd (not w))) hf)
+(cond (not (or (not hf) (not brd))) (not brch))
+(brd)
+(not brch)
